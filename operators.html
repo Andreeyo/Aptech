@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>HTML5</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.scrolly.min.js"></script>
+        <script src="js/jquery.dropotron.min.js"></script>
+        <script src="js/jquery.scrollex.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/skel-layers.min.js"></script>
+        <script src="js/init.js"></script>
+        <noscript>
+            <link rel="stylesheet" href="css/skel.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/style-xlarge.css" />
+        </noscript>
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    </head>
+    <body>
+
+        <!-- Header -->
+            <header id="header">
+                <h1 id="logo"><a href="index.html"><img src="images/logo.png" width="258px" height="60px"></a></h1>
+                    <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="">Html</a>
+                            <ul>
+                                  <li><a href="left-sidebar.html">Style & Color Attribute</a></li>
+                                <li><a href="right-sidebar.html">Div & Span</a></li>
+                                <li><a href="no-sidebar.html">Tables</a></li>
+                                 <li><a href="form.html">Forms</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="css.html">CSS</a>
+                            <ul>
+                                <li><a href="Bsp.html">Border Style Property</a></li>
+                                 <li><a href="mp.html">Margin & Padding</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="js.html">JavaScript</a>
+                             <ul>
+                                     <li><a href="var.html">Variables</a></li>
+                                     <li><a href="Data.html">Data Types</a></li>
+                                     <li><a href="operators.html">Conditional Statements</a></li>
+                                        <li><a href="loop.html">Loops</a></li>
+                                  <li><a href="Function.html">Functions</a></li>
+                             </ul>
+                                    
+                         </li>
+                        <li><a href="elements.html">Elements</a></li>
+                        <!--<li><a href="#" class="button special">Sign Up</a></li>-->
+                    </ul>
+                </nav>
+            </header>
+
+        <!-- Main -->
+            <div id="main" class="wrapper style1">
+                <div class="container">
+                    <header class="major">
+                        <h2>LOGICAL OPERATOR </h2>
+                        <p>
+                            Are typically used with boolean (logical) values.
+                        </p>
+                    </header>
+
+                    <!-- Content -->
+                        <section id="content">
+                            <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                            <h3>LOGICAL OPERATORS</h3>
+                            <p>
+                                <div class="table-wrapper">
+                                    <table>
+                                    <tr>
+                                    <td>OPERATOR</td>    
+                                    <td>USAGE</td>    
+                                    <td>DESCRIPTION</td>    
+                                    </tr>
+                                    
+                                        <tr>
+                                        <td>LOGICAL & <br />(&&)</td>
+                                        <td>expr1 && expr2
+                                         </td>
+                                        <td>When used with boolean values, && returns true if both operands are true,                                               otherwise returns false.</td>
+                                        </tr>
+                                        <tr>
+                                        <td>LOGICAL OR <br /> (||)</td>
+                                        <td>expr1 || expr2
+                                         </td>
+                                        <td>When used with boolean valuse || returns true if either operand is true, if                                             both are false, returns false.</td>
+                                        </tr>
+                                        <tr>
+                                        <td>LOGICAL NOT <br /> (!)</td>
+                                        <td> ! expr
+                                         </td>
+                                        <td>Returns false if its single operand can be converted to true, otherwise returns true.</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <h3>CONDITIONAL STATEMENTS</h3>
+                                <p>Conditional statements are used to perform different actions based on different conditions.</p>
+                                <h4>if Statement</h4>
+                                <p>Use the if statement to specify a block of JavaScript code to be executed if a condition is true.</p>
+                                    <h4>SYNTAX</h4>
+                                <p>if (condition)<br/> {
+                                    block of code to be executed if the condition is true
+                                } </p>
+                            
+                                 <h4>else Statement</h4>
+                                <p>Use the else statement to specify a block of code to be executed if the condition is false.</p>
+                                    <h4>SYNTAX</h4>
+                                <p>if (condition)<br/> {
+                                        block of code to be executed if the condition is true
+                                    }<br/> else<br/> {
+                                        block of code to be executed if the condition is false
+                                    } </p>
+                            
+                                <h4>else if Statement</h4>
+                                <p>Use the else if statement to specify a new condition if the first condition is false.</p>
+                                    <h4>SYNTAX</h4>
+                                <p>if (condition1)<br/> {
+    block of code to be executed if condition1 is true
+} <br/>else if (condition2)<br> {
+    block of code to be executed if the condition1 is false and condition2 is true
+} <br>else<br> {
+    block of code to be executed if the condition1 is false and condition2 is false
+} </p>                          
+                            <h4>Switch Statement</h4>
+                                <p>Use the switch statement to select one of many blocks of code to be executed.</p>
+                                    <h4>SYNTAX</h4>
+                            <p>
+                                switch(expression)<BR> {
+                                    <br>case n:<br>
+                                        code block<br>
+                                        break;<br>
+                                    case n:<br>
+                                        code block<br>
+                                        break;<br>
+                                    default:<br>
+                                        default code block<br>
+                                        } </p>
+                                <p>This is how it works:
+
+                                    <li>The switch expression is evaluated once.</li>
+                            <li>The value of the expression is compared with the values of each case.</li>
+    <li>If there is a match, the associated block of code is executed.</li>
+
+</p>
+                            
+                        </section>
+
+                </div>
+            </div>
+
+        <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                 <li>&copy; BUILDING DYNAMIC WEBSITES. All rights reserved.</li><li><a>Design: </a></li>
+                </ul>
+            </footer>
+
+    </body>
+</html>
+

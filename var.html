@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>HTML5</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.scrolly.min.js"></script>
+        <script src="js/jquery.dropotron.min.js"></script>
+        <script src="js/jquery.scrollex.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/skel-layers.min.js"></script>
+        <script src="js/init.js"></script>
+        <noscript>
+            <link rel="stylesheet" href="css/skel.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/style-xlarge.css" />
+        </noscript>
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    </head>
+    <body>
+
+        <!-- Header -->
+            <header id="header">
+                <h1 id="logo"><a href="index.html"><img src="images/logo.png" width="258px" height="60px"></a></h1>
+                    <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="">Html</a>
+                            <ul>
+                                  <li><a href="left-sidebar.html">Style & Color Attribute</a></li>
+                                <li><a href="right-sidebar.html">Div & Span</a></li>
+                                <li><a href="no-sidebar.html">Tables</a></li>
+                                 <li><a href="form.html">Forms</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="css.html">CSS</a>
+                            <ul>
+                                <li><a href="Bsp.html">Border Style Property</a></li>
+                                 <li><a href="mp.html">Margin & Padding</a></li>
+                            </ul>
+                        </li>
+                         <li><a href="js.html">JavaScript</a>
+                             <ul>
+                                     <li><a href="var.html">Variables</a></li>
+                                     <li><a href="Data.html">Data Types</a></li>
+                                  <li><a href="operators.html">Conditional Statements</a></li>
+                                  <li><a href="loop.html">Loops</a></li>
+                                  <li><a href="Function.html">Functions</a></li>
+                             </ul>
+                               
+                         </li>
+                        <li><a href="elements.html">Elements</a></li>
+                        <!--<li><a href="#" class="button special">Sign Up</a></li>-->
+                    </ul>
+                </nav>
+            </header>
+
+        <!-- Main -->
+            <div id="main" class="wrapper style1">
+                <div class="container">
+                    <header class="major">
+                        <h2>VARIABLES</h2>
+                        <p>Refers to a symbolic name that holds a value, which keeps changing. In JS, a variable is a unique location in the computer’s memory that stores a value and has a unique name. This name of the variable is used to access and read the value stored in it. A variable can store different data types.
+
+                        </p>
+                    </header>
+
+                    <!-- Content -->
+                        <section id="content">
+                            <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                            <h3>DECLARING VARIABLES</h3>
+                            <p>Refers to creating a variable by specifying the variable name. In JS, the var keyword is used to create a variable by allocating memory to it. A keyword is a reserved word that holds a special meaning in JS.
+                                <br />
+                                <h4>SYNTAX:</h4>
+                            Var variable_Name;<br />
+                            Where,<br />
+                            var:Is the keyword in JS.<br />
+                            variableName:is a valid variable name.<br /><br />
+                            <h4>ASSIGNING VALUE TO VARIABLE</h4>
+                            variableName = value;<br />
+                            Where<br />
+                            =: is the assignment operator used to assign values.<br />
+                            Value: Is the data that is to be stored in the variable.<br /><br />
+                            <h4>DECLARING MULTIPLE VARIABLES</h4>
+                            Declaring multiple variables in a single statement separated by commas.<br />
+                            var variableName1 = value1, variableName2 = value2;   </p>
+
+                            <h3>RULES</h3>
+                            <p>You cannot refer to a variable until it is created in JS. JS is case-sensitive. In JS there are certain rules, which must be followed while specifying variable names. There are: <br />
+                                <ul>
+                                    <li>Can consist of digits, underscore and alphabets.</li>
+                                    <li>Must begin with a letter or the underscore character.</li>
+                                    <li>Cannot begin with a number and cannot contain any punctuation marks.</li>
+                                    <li>Cannot contain any kind of special characters such as +, *, % etc.</li>
+                                    <li>Cannot contain spaces.</li>
+                                    <li>Cannot be a JS keyword.</li>
+                                </ul>
+                            </p>
+                            <p style="color:yellow;">
+                                It is recommended to give meaningful names to a variable such that the name determines the kind of data stored in the variable.
+                            </p>
+
+                            <h3>HOW TO DISPLAY VARIABLES</h3>
+                            <p>Javascript allows display of info using methods of the document objects. This document object is a predefined object in Javascript which represents the HTML page and allows managing the HTML page dynamically.</p>
+
+                            <p>The methods of displaying objects on browser with javascript are;</p>
+
+                            <ul>
+                                <li>writeLn();</li>
+                                <li>document.write();</li>
+                                <li>alert();</li>
+                                <li>confirm();</li>
+                                <li>prompt(); </li>
+                            </ul>
+
+                            <P><h2>writeLn():</h2>Displays any type of data and appends (adds) a new line character.</P>
+                            <p><h2>alert():</h2>Displays a dialogue box with some information and an ‘OK’ button</p>
+                            <p><h2>confirm():</h2>Displays a dialogue box with the ‘OK’ and ‘CANCEL’ button. It verifies an action which the user wants to perform.</p>
+                            <p><h2>prompt():</h2>Displays a dialogue box that accepts an input value through a textbox.</p>
+
+                        </section>
+
+                </div>
+            </div>
+
+        <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                 <li>&copy; BUILDING DYNAMIC WEBSITES. All rights reserved.</li><li><a>Design: </a></li>
+                </ul>
+            </footer>
+
+    </body>
+</html>
+

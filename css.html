@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>HTML5</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.scrolly.min.js"></script>
+        <script src="js/jquery.dropotron.min.js"></script>
+        <script src="js/jquery.scrollex.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/skel-layers.min.js"></script>
+        <script src="js/init.js"></script>
+        <noscript>
+            <link rel="stylesheet" href="css/skel.css" />
+            <link rel="stylesheet" href="css/style.css" />
+            <link rel="stylesheet" href="css/style-xlarge.css" />
+        </noscript>
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    </head>
+    <body>
+
+        <!-- Header -->
+            <header id="header">
+                <h1 id="logo"><a href="index.html"><img src="images/logo.png" width="258px" height="60px"></a></h1>
+                    <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="">Html</a>
+                            <ul>
+                                  <li><a href="left-sidebar.html">Style & Color Attribute</a></li>
+                                <li><a href="right-sidebar.html">Div & Span</a></li>
+                                <li><a href="no-sidebar.html">Tables</a></li>
+                                 <li><a href="form.html">Forms</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="css.html">CSS</a>
+                            <ul>
+                                <li><a href="Bsp.html">Border Style Property</a></li>
+                                 <li><a href="mp.html">Margin & Padding</a></li>
+                            </ul>
+                        </li>
+                          <li><a href="js.html">JavaScript</a>
+                             <ul>
+                                     <li><a href="var.html">Variables</a></li>
+                                     <li><a href="Data.html">Data Types</a></li>
+                             </ul>
+                         </li>
+                        <li><a href="elements.html">Elements</a></li>
+                        <!--<li><a href="#" class="button special">Sign Up</a></li>-->
+                    </ul>
+                </nav>
+            </header>
+
+        <!-- Main -->
+            <div id="main" class="wrapper style1">
+                <div class="container">
+                    <header class="major">
+                        <h2 style="color:yellow">CASCADING STYLE SHEET</h2>
+                        <p>A Cascading Style Sheet (CSS) is a rule-based language, which specifies the formatting instructions for the content specified in an HTML page.<br />Cascading Style Sheets (CSS) is a style sheet language used for describing the look and formatting of a document written in a markup language. It was invented in 1997.
+</p>
+                    </header>
+
+                    <!-- Content -->
+                        <section id="content">
+                            <a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+                            <h3>BENEFITS</h3>
+                            <p>Multiple HTML pages can use a CSS document.
+                             <li>Code Reusability</li>
+                             <li>Less HTML Code</li>
+                             <li>Device Independence.</li>
+                            </p>
+
+                        <h3>CSS SYNTAX</h3>
+                            <p>The general syntax of CSS consists of three parts namely, selector, property and value.  A selector is an HTML element for which you want to specify the style or the formatting instruction. A property is a CSS property that specifies the type of the style to be applied to the selector. CSS allows controlling the appearance of the content by providing various properties. Which includes text properties, positioning properties, font properties, color properties etc. A value refers to the value of the CSS property. A CSS property can have multiple values.
+The property and its value for a selector are separated with a colon (:). They are enclosed within the curly brackets ({}) that is known as the declaration block.
+                            </p>
+                            <h3>TYPES OF STYLE SHEETS</h3>
+                            <p><li>Internal style sheet is also included within the HTML document. It is defined using the style element within the HEAD element</li>
+                                <li>External style sheet is defined in a separate file and is saved with the .css extension. It provides the benefit of reusability by implementing common style rules for multiple HTML pages.
+                                Linking the external style sheet to your web page you use: link rel=”stylesheet” type=”text/css” href=”body.css”</li>
+                                <li>Inline CSS: here the styling is done inside a particular tag.</li>
+
+
+                            </p>
+
+                        <h3>TYPES OF SELECTORS</h3>
+                            <p>There are three(3) types of selectors namely: Type selector, Class selector, ID selector, Universal Selector.<br />
+                            <b style="color:yellow">* Type Selector</b> specifies the element name along with the styles to be applied to that element. This results in applying the specified styles to all the occurrence of that element in the web page.<br /> Type selector
+{
+    color:brown;
+}
+<br />
+                                <b style="color:yellow">* Class Selector</b> matches elements, whose class attribute is set in an HTML page and applies styles to the content of all those elements.<br />.class selector.
+{
+    color:brown;
+}
+</br>
+                                <b style="color:yellow">* ID Selector</b> matches elements, whose ID attribute is set in an HTML page and applies styles to the content of all those elements.</br>#id selector.
+{
+    color:brown;
+}
+</br>
+                    <b style="color:yellow">* Universal Selector</b> represents all the elements with the HTML page. It matches all the elements in the HTML file. This means that it applies the specified styles to the content of all the elements.<br />* Universal selector.
+{
+    color:brown;
+}
+
+                            </p>
+
+                            <h3>EVENT HANDLING</h3>
+                            <p>Event can be defined as an occurrence of an action that can be notified by the source to the subscribers. Examples of events are mouse clicks, keystrokes etc.<br />
+                                <div class="table-wrapper">
+                                        <table>
+                                        <tr>
+                                            <th>EVENTS</th>
+                                            <th>DESCRIPTION</th>
+                                        </tr>
+                                        <tr>
+                                            <td>onclick</td>
+                                            <td>Specifies the action to be taken on mouse click.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>onload</td>
+                                            <td>Specifies the action to be taken when a mouse pointer moves over an element.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>onmouseover</td>
+                                            <td>Specifies the action to be taken when a mouse pointer moves over an element.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>onmouseout</td>
+                                            <td>Specifies the action to be taken when a mouse pointer moves out of element.</td>
+                                        </tr>
+ <tr>
+                                            <td>onsubmit</td>
+                                            <td>Specifies the action to be taken when a form is submitted.</td>
+                                        </tr>
+
+
+                                            </table>
+                                    </div>
+                            </p>
+
+                                <h3>BACKGROUND PROPERTY</h3>
+                            <p>
+                                <li>Background-attachment</li>
+                                <li>Background-color.</li>
+                                <li>Background-image.</li>
+                                <li>Background-position.</li>
+                                <li>Background-repeat.</li>
+
+                            </p>
+                        </section>
+
+                </div>
+            </div>
+
+        <!-- Footer -->
+            <footer id="footer">
+                <ul class="icons">
+                    <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+                <ul class="copyright">
+                 <li>&copy; BUILDING DYNAMIC WEBSITES. All rights reserved.</li><li><a>Design:</a></li>
+                </ul>
+            </footer>
+
+    </body>
+</html>
+
