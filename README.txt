@@ -17,6 +17,8 @@ you can use for pretty much whatever.
 
 Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
 
+This can also serve as a learning material for HTML, CSS and JS basics
+
 AJ
 n33.co @n33co dribbble.com/n33
 
